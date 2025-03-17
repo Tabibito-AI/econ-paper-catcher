@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomoto0/econ-paper-catcher.git"
+    "url": "git+https://github.com/Tabibito-AI/econ-paper-catcher.git"
   },
   "author": "Tomoto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomoto0/econ-paper-catcher/issues"
+    "url": "https://github.com/Tabibito-AI/econ-paper-catcher/issues"
   },
-  "homepage": "https://tomoto0.github.io/econ-paper-catcher/",
+  "homepage": "https://Tabibito-AI.github.io/econ-paper-catcher/",
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "aws-sdk": "^2.814.0",

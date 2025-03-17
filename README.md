@@ -1,10 +1,10 @@
-# Paper Catcher
+# Econ Paper Catcher
 
-Paper Catcherは、論文を自動的に収集し、日本語で要約・翻訳して提供するウェブアプリケーションです。ユーザーが設定したキーワードに関連する論文を各種APIで取得し、Gemini APIを使用して日本語訳を作成し、GitHubページに自動的に更新します。
+Econ Paper Catcherは、経済学の論文を自動的に収集し、日本語で要約・翻訳して提供するウェブアプリケーションです。ユーザーが設定したキーワードに関連する論文を各種APIで取得し、Gemini APIを使用して日本語訳を作成し、GitHubページに自動的に更新します。
 
 ## 機能
 
-- **自動論文収集**: 設定したキーワードに基づいて論文を自動的に収集
+- **自動論文収集**: 設定したキーワードに基づいて経済学の論文を自動的に収集
 - **日本語翻訳**: 論文のタイトルと要約を日本語に翻訳
 - **カテゴリ分類**: 「教育・労働経済学」と「経済学一般」のカテゴリに分類
 - **多様なソート機能**: 登録日付順、取得順、ジャーナル別、出版日別でソート可能
@@ -65,6 +65,17 @@ npm start
 ```bash
 npm run deploy
 ```
+
+### GitHub Pagesへのデプロイについて
+
+GitHub Pagesへのデプロイは、セキュリティ上の問題により自動的に完了できませんでした。リポジトリのオーナーとして、以下の方法でデプロイを完了できます：
+
+1. GitHubのリポジトリページにアクセス
+2. 「Settings」→「Pages」を選択
+3. ソースとして「GitHub Actions」を選択
+4. 提供されているワークフローテンプレートから「Static HTML」を選択してデプロイ
+
+Tabibito-AI's personal token 👇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
 
 ## 自動更新の設定
 
