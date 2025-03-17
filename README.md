@@ -75,7 +75,7 @@ GitHub Pagesへのデプロイは、セキュリティ上の問題により自�
 3. ソースとして「GitHub Actions」を選択
 4. 提供されているワークフローテンプレートから「Static HTML」を選択してデプロイ
 
-Tabibito-AI's personal token 👇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
+Tabibito-AI's personal token 👇[TOKEN_REMOVED_FOR_SECURITY]
 
 ## 自動更新の設定
 
