@@ -196,4 +196,4 @@ Econ Paper Catcherは以下のコンポーネントで構成されています�
 
 ## 連絡先
 
-質問や提案がある場合は、GitHubのIssueを作成するか、[your-email@example.com](mailto:your-email@example.com)までご連絡ください。
+質問や提案がある場合は、GitHubのIssueを作成してください。
