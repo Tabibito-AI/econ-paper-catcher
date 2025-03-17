@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Econ Paper Catcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .paper-abstract {
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Econ Paper Catcher</h1>
+            <div class="header-controls">
+                <div class="filter-buttons">
+                    <button class="filter-btn active">教育・労働経済学</button>
+                    <button class="filter-btn">経済学一般</button>
+                </div>
+                <div class="sort-buttons">
+                    <button class="sort-btn active" data-sort-type="registration">
+                        <span class="icon">📅</span>
+                        登録日付順
+                    </button>
+                    <button class="sort-btn" data-sort-type="acquisition">
+                        <span class="icon">≡</span>
+                        取得順
+                    </button>
+                    <button class="sort-btn" data-sort-type="journal">
+                        <span class="icon">📚</span>
+                        ジャーナル別
+                    </button>
+                    <button class="sort-btn" data-sort-type="publication">
+                        <span class="icon">⏱</span>
+                        出版日別
+                    </button>
+                    <button class="sort-btn" data-sort-type="archive">
+                        <span class="icon">📚</span>
+                        アーカイブ
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="papers-section">
+            <h2 class="date-header">2025年3月17日</h2>
+            <div class="papers-grid">
+                <!-- 論文カードはここに動的に追加されます -->
+                <article class="paper-card" 
+                    data-category="教育・労働経済学" 
+                    data-title="Calendar anomalies as an example of interferences of the efficient market hypothesis – pandemic and post-pandemic economic reality" 
+                    data-authors="Bartłomiej Lisicki" 
+                    data-journal="Bank i Kredyt" 
+                    data-date="2025年3月17日"
+                    data-index="1"
+                    data-publication-date="2025-03-15"
+                    data-abstract="This paper examines calendar anomalies in financial markets during and after the COVID-19 pandemic. The study analyzes how these anomalies challenge the efficient market hypothesis in times of economic uncertainty."
+                    data-translated-title="カレンダー異常：効率的市場仮説への干渉の例 - パンデミックおよびポストパンデミック経済の現実"
+                    data-translated-abstract="本研究は、COVID-19パンデミック中およびその後の金融市場におけるカレンダー異常を検証しています。この研究は、これらの異常が経済的不確実性の時期に効率的市場仮説にどのように挑戦するかを分析しています。">
+                    <div class="paper-category">教育・労働経済学</div>
+                    <h3 class="paper-title">Calendar anomalies as an example of interferences of the efficient market hypothesis – pandemic and post-pandemic economic reality</h3>
+                    <p class="paper-abstract">This paper examines calendar anomalies in financial markets during and after the COVID-19 pandemic. The study analyzes how these anomalies challenge the efficient market hypothesis in times of economic uncertainty.</p>
+                    <div class="paper-meta">
+                        <span>Bank i Kredyt</span>
+                        <button class="expand-btn">詳細</button>
+                    </div>
+                </article>
+
+                <article class="paper-card" 
+                    data-category="経済学一般" 
+                    data-title="Macroeconomic Implications of Artificial Intelligence" 
+                    data-authors="John Smith, Jane Doe" 
+                    data-journal="Journal of Economic Perspectives" 
+                    data-date="2025年3月17日"
+                    data-index="2"
+                    data-publication-date="2025-03-10"
+                    data-abstract="This paper explores the potential macroeconomic impacts of widespread AI adoption across various sectors. We analyze productivity changes, labor market disruptions, and policy implications for economic growth."
+                    data-translated-title="人工知能のマクロ経済的影響"
+                    data-translated-abstract="本論文は、様々なセクターにおける広範なAI採用の潜在的なマクロ経済的影響を探ります。我々は、生産性の変化、労働市場の混乱、および経済成長のための政策的意味を分析します。">
+                    <div class="paper-category">経済学一般</div>
+                    <h3 class="paper-title">Macroeconomic Implications of Artificial Intelligence</h3>
+                    <p class="paper-abstract">This paper explores the potential macroeconomic impacts of widespread AI adoption across various sectors. We analyze productivity changes, labor market disruptions, and policy implications for economic growth.</p>
+                    <div class="paper-meta">
+                        <span>Journal of Economic Perspectives</span>
+                        <button class="expand-btn">詳細</button>
+                    </div>
+                </article>
+
+                <article class="paper-card" 
+                    data-category="教育・労働経済学" 
+                    data-title="Educational Returns in the Digital Economy" 
+                    data-authors="Maria Rodriguez, David Chen" 
+                    data-journal="Education Economics" 
+                    data-date="2025年3月17日"
+                    data-index="3"
+                    data-publication-date="2025-03-12"
+                    data-abstract="This study investigates how returns to education have evolved in the digital economy. We find that specialized technical skills yield higher returns than traditional educational credentials in certain sectors."
+                    data-translated-title="デジタル経済における教育リターン"
+                    data-translated-abstract="本研究は、デジタル経済において教育へのリターンがどのように進化してきたかを調査しています。特定のセクターでは、専門的な技術スキルが従来の教育資格よりも高いリターンをもたらすことがわかりました。">
+                    <div class="paper-category">教育・労働経済学</div>
+                    <h3 class="paper-title">Educational Returns in the Digital Economy</h3>
+                    <p class="paper-abstract">This study investigates how returns to education have evolved in the digital economy. We find that specialized technical skills yield higher returns than traditional educational credentials in certain sectors.</p>
+                    <div class="paper-meta">
+                        <span>Education Economics</span>
+                        <button class="expand-btn">詳細</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- モーダル -->
+    <div class="modal-overlay">
+        <div class="modal-container">
+            <button class="close-btn">×</button>
+            <div class="modal-content">
+                <!-- モーダルコンテンツはJavaScriptで動的に生成されます -->
+            </div>
+        </div>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
