@@ -75,8 +75,6 @@ GitHub Pagesへのデプロイは、セキュリティ上の問題により自�
 3. ソースとして「GitHub Actions」を選択
 4. 提供されているワークフローテンプレートから「Static HTML」を選択してデプロイ
 
-Tabibito-AI's personal token 👇[TOKEN_REMOVED_FOR_SECURITY]
-
 ## 自動更新の設定
 
 このアプリケーションは、GitHub Actionsを使用して毎日自動的に論文を収集し、ウェブページを更新します。
