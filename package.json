@@ -1,7 +1,7 @@
 {
-  "name": "econ-paper-catcher",
+  "name": "paper-catcher",
   "version": "1.0.0",
-  "description": "経済学論文を自動収集・翻訳して提供するウェブアプリケーション",
+  "description": "論文を自動収集・翻訳して提供するウェブアプリケーション",
   "main": "index.js",
   "type": "module",
   "scripts": {
